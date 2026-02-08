@@ -1,0 +1,53 @@
+body, h3, p {
+    margin: 0;
+}
+@font-face {
+    font-family: 'digital-7';
+    src: url('digital-7.woff');
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-score , .guest-score {
+    font-family: 'digital-7', sans-serif;
+    font-size: 90px;
+    background: #080001;
+    text-align: center;
+    padding: 0 36px;
+    border-radius: 5px;
+    color: #F94F6D;
+    line-height: 126px;
+}
+.main {
+    background: #1B244A;
+    height: 100vh;
+    padding: 64px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    color: #EEEEEE;
+    column-gap: 72px;
+}
+.add-points-btns {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 24px;
+}
+button {
+    background: none;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    font-family: 'digital-7', sans-serif;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
